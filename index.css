@@ -140,7 +140,7 @@ p {
 
 .app-icon {
 	width: 90px;
-	margin: 0 auto;
+	margin: auto;
 	filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
 	-webkit-filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
 }
@@ -149,15 +149,20 @@ p {
 	font-size: 35px;
 	font-weight: 200;
 	white-space: nowrap;
+	margin-left: -25px;
+}
+
+.app-icon img {
+	border-radius: 20%;
 }
 
 @media only screen and (min-width: 767px) {
 	.app-icon {
-		margin: 0;
+		margin: auto;
 	}
 
 	.app-icon p {
-		margin-left: 2px;
+		margin-left: -25px;
 	}
 }
 
